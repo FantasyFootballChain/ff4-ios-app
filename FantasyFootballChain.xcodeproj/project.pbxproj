@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4331369269B06C0AD5B8DAE6 /* Pods_FantasyFootballChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */; };
+		7F2338E821C81D220084B781 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2338E721C81D220084B781 /* MenuManager.swift */; };
+		7F2338EA21C81DAF0084B781 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2338E921C81DAF0084B781 /* MenuVC.swift */; };
+		7F2338EC21C81DF60084B781 /* MenuVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2338EB21C81DF60084B781 /* MenuVC.storyboard */; };
 		7F836D86219B49EA00850A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F836D85219B49EA00850A20 /* AppDelegate.swift */; };
 		7F836D88219B49EA00850A20 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F836D87219B49EA00850A20 /* MainScreenViewController.swift */; };
 		7F836D8B219B49EA00850A20 /* MainScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D89219B49EA00850A20 /* MainScreenViewController.storyboard */; };
@@ -17,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		08CCB20A126A65F6A2C29AA9 /* Pods-FantasyFootballChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.debug.xcconfig"; path = "Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8D373943389A34FD682377 /* Pods-FantasyFootballChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.release.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.release.xcconfig"; sourceTree = "<group>"; };
+		7F2338E721C81D220084B781 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		7F2338E921C81DAF0084B781 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		7F2338EB21C81DF60084B781 /* MenuVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuVC.storyboard; sourceTree = "<group>"; };
 		7F836D82219B49EA00850A20 /* FantasyFootballChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyFootballChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F836D85219B49EA00850A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F836D87219B49EA00850A20 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +32,7 @@
 		7F836D8F219B49EB00850A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F836D91219B49EB00850A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyFootballChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E721CB16ACB4F8B851985433 /* Pods-FantasyFootballChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC5F39C6E4449662523892B /* Pods-FantasyFootballChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.release.xcconfig"; path = "Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +53,8 @@
 			children = (
 				08CCB20A126A65F6A2C29AA9 /* Pods-FantasyFootballChain.debug.xcconfig */,
 				EEC5F39C6E4449662523892B /* Pods-FantasyFootballChain.release.xcconfig */,
+				E721CB16ACB4F8B851985433 /* Pods-FantasyFootballChain.debug.xcconfig */,
+				6A8D373943389A34FD682377 /* Pods-FantasyFootballChain.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -55,6 +65,16 @@
 				802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F2338ED21C820FE0084B781 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F2338E721C81D220084B781 /* MenuManager.swift */,
+				7F2338E921C81DAF0084B781 /* MenuVC.swift */,
+				7F2338EB21C81DF60084B781 /* MenuVC.storyboard */,
+			);
+			path = MenuVC;
 			sourceTree = "<group>";
 		};
 		7F836D79219B49EA00850A20 = {
@@ -80,6 +100,7 @@
 			children = (
 				7F836D97219B4A4100850A20 /* SupportingFiles */,
 				7F836D98219B4AA400850A20 /* MainScreen */,
+				7F2338ED21C820FE0084B781 /* MenuVC */,
 				7F836D8C219B49EB00850A20 /* Assets.xcassets */,
 			);
 			path = FantasyFootballChain;
@@ -166,6 +187,7 @@
 			files = (
 				7F836D90219B49EB00850A20 /* LaunchScreen.storyboard in Resources */,
 				7F836D8D219B49EB00850A20 /* Assets.xcassets in Resources */,
+				7F2338EC21C81DF60084B781 /* MenuVC.storyboard in Resources */,
 				7F836D8B219B49EA00850A20 /* MainScreenViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,28 +203,42 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
 				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/EthereumABI/EthereumABI.framework",
+				"${BUILT_PRODUCTS_DIR}/EthereumAddress/EthereumAddress.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
-				"${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework",
-				"${BUILT_PRODUCTS_DIR}/web3swift/web3swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRLP/SwiftRLP.framework",
+				"${BUILT_PRODUCTS_DIR}/scrypt/scrypt.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1_swift/secp256k1_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/web3swift/Web3swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EthereumABI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EthereumAddress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/web3swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRLP.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/scrypt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Web3swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C816768C1E90683C7D032348 /* [CP] Check Pods Manifest.lock */ = {
@@ -234,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2338E821C81D220084B781 /* MenuManager.swift in Sources */,
+				7F2338EA21C81DAF0084B781 /* MenuVC.swift in Sources */,
 				7F836D88219B49EA00850A20 /* MainScreenViewController.swift in Sources */,
 				7F836D86219B49EA00850A20 /* AppDelegate.swift in Sources */,
 			);

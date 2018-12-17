@@ -17,10 +17,24 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmY-Lb-kEF">
+                                <rect key="frame" x="16" y="20" width="24" height="24"/>
+                                <state key="normal" image="menuButton"/>
+                                <connections>
+                                    <action selector="leftMenuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5aK-Rz-ACa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SmY-Lb-kEF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0cb-Rc-VdF"/>
+                            <constraint firstItem="SmY-Lb-kEF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ny2-bJ-VRP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="OLj-TH-EQS"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,4 +59,7 @@
             <point key="canvasLocation" x="60" y="791.15442278860576"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menuButton" width="24" height="24"/>
+    </resources>
 </document>

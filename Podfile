@@ -7,6 +7,9 @@ target 'FantasyFootballChain' do
 
   # Pods for FantasyFootballChain
 
-  pod 'web3swift', :git => 'https://github.com/bankex/web3swift.git'
+  pod 'web3swift'
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'SideMenu'
 
 end

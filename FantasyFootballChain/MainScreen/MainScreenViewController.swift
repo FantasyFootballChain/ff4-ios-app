@@ -7,8 +7,9 @@
 //
 
 import UIKit
-import web3swift
+import Web3swift
 import BigInt
+import SideMenu
 
 class MainScreenViewController: UIViewController {
   
@@ -19,9 +20,19 @@ class MainScreenViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    MenuManager.shared().createLeftSideMenu(viewController: self)
   }
   
-
-
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    self.navigationController?.setNavigationBarHidden(true, animated: false)
+  }
+  
+  
+  @IBAction func leftMenuButton(_ sender: UIButton) {
+    present(SideMenuManager.default.menuLeftNavigationController!, animated: true, completion: nil)
+  }
+  
 }
 
