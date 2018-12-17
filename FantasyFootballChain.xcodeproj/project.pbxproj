@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4331369269B06C0AD5B8DAE6 /* Pods_FantasyFootballChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */; };
+		7F836D86219B49EA00850A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F836D85219B49EA00850A20 /* AppDelegate.swift */; };
+		7F836D88219B49EA00850A20 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F836D87219B49EA00850A20 /* MainScreenViewController.swift */; };
+		7F836D8B219B49EA00850A20 /* MainScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D89219B49EA00850A20 /* MainScreenViewController.storyboard */; };
+		7F836D8D219B49EB00850A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D8C219B49EB00850A20 /* Assets.xcassets */; };
+		7F836D90219B49EB00850A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D8E219B49EB00850A20 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08CCB20A126A65F6A2C29AA9 /* Pods-FantasyFootballChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.debug.xcconfig"; path = "Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.debug.xcconfig"; sourceTree = "<group>"; };
+		7F836D82219B49EA00850A20 /* FantasyFootballChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyFootballChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F836D85219B49EA00850A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F836D87219B49EA00850A20 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		7F836D8A219B49EA00850A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainScreenViewController.storyboard; sourceTree = "<group>"; };
+		7F836D8C219B49EB00850A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F836D8F219B49EB00850A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F836D91219B49EB00850A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyFootballChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC5F39C6E4449662523892B /* Pods-FantasyFootballChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.release.xcconfig"; path = "Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F836D7F219B49EA00850A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4331369269B06C0AD5B8DAE6 /* Pods_FantasyFootballChain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080DE12F9095251489FA711E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08CCB20A126A65F6A2C29AA9 /* Pods-FantasyFootballChain.debug.xcconfig */,
+				EEC5F39C6E4449662523892B /* Pods-FantasyFootballChain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3DF97600A22D1C8C6A297B5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F836D79219B49EA00850A20 = {
+			isa = PBXGroup;
+			children = (
+				7F836D84219B49EA00850A20 /* FantasyFootballChain */,
+				7F836D83219B49EA00850A20 /* Products */,
+				080DE12F9095251489FA711E /* Pods */,
+				3DF97600A22D1C8C6A297B5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F836D83219B49EA00850A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F836D82219B49EA00850A20 /* FantasyFootballChain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F836D84219B49EA00850A20 /* FantasyFootballChain */ = {
+			isa = PBXGroup;
+			children = (
+				7F836D97219B4A4100850A20 /* SupportingFiles */,
+				7F836D98219B4AA400850A20 /* MainScreen */,
+				7F836D8C219B49EB00850A20 /* Assets.xcassets */,
+			);
+			path = FantasyFootballChain;
+			sourceTree = "<group>";
+		};
+		7F836D97219B4A4100850A20 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7F836D85219B49EA00850A20 /* AppDelegate.swift */,
+				7F836D8E219B49EB00850A20 /* LaunchScreen.storyboard */,
+				7F836D91219B49EB00850A20 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7F836D98219B4AA400850A20 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7F836D87219B49EA00850A20 /* MainScreenViewController.swift */,
+				7F836D89219B49EA00850A20 /* MainScreenViewController.storyboard */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F836D81219B49EA00850A20 /* FantasyFootballChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F836D94219B49EB00850A20 /* Build configuration list for PBXNativeTarget "FantasyFootballChain" */;
+			buildPhases = (
+				C816768C1E90683C7D032348 /* [CP] Check Pods Manifest.lock */,
+				7F836D7E219B49EA00850A20 /* Sources */,
+				7F836D7F219B49EA00850A20 /* Frameworks */,
+				7F836D80219B49EA00850A20 /* Resources */,
+				AB2F00537869F559890D4D57 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyFootballChain;
+			productName = FantasyFootballChain;
+			productReference = 7F836D82219B49EA00850A20 /* FantasyFootballChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F836D7A219B49EA00850A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DB;
+				TargetAttributes = {
+					7F836D81219B49EA00850A20 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F836D7D219B49EA00850A20 /* Build configuration list for PBXProject "FantasyFootballChain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F836D79219B49EA00850A20;
+			productRefGroup = 7F836D83219B49EA00850A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F836D81219B49EA00850A20 /* FantasyFootballChain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F836D80219B49EA00850A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F836D90219B49EB00850A20 /* LaunchScreen.storyboard in Resources */,
+				7F836D8D219B49EB00850A20 /* Assets.xcassets in Resources */,
+				7F836D8B219B49EA00850A20 /* MainScreenViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB2F00537869F559890D4D57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1.swift/secp256k1.framework",
+				"${BUILT_PRODUCTS_DIR}/web3swift/web3swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/web3swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C816768C1E90683C7D032348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FantasyFootballChain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F836D7E219B49EA00850A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F836D88219B49EA00850A20 /* MainScreenViewController.swift in Sources */,
+				7F836D86219B49EA00850A20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F836D89219B49EA00850A20 /* MainScreenViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F836D8A219B49EA00850A20 /* Base */,
+			);
+			name = MainScreenViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		7F836D8E219B49EB00850A20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F836D8F219B49EB00850A20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F836D92219B49EB00850A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F836D93219B49EB00850A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F836D95219B49EB00850A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08CCB20A126A65F6A2C29AA9 /* Pods-FantasyFootballChain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZY42JQJ98;
+				INFOPLIST_FILE = "$(SRCROOT)/FantasyFootballChain/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FantasyFootballChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F836D96219B49EB00850A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC5F39C6E4449662523892B /* Pods-FantasyFootballChain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PZY42JQJ98;
+				INFOPLIST_FILE = "$(SRCROOT)/FantasyFootballChain/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.FantasyFootballChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F836D7D219B49EA00850A20 /* Build configuration list for PBXProject "FantasyFootballChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F836D92219B49EB00850A20 /* Debug */,
+				7F836D93219B49EB00850A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F836D94219B49EB00850A20 /* Build configuration list for PBXNativeTarget "FantasyFootballChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F836D95219B49EB00850A20 /* Debug */,
+				7F836D96219B49EB00850A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F836D7A219B49EA00850A20 /* Project object */;
+}
