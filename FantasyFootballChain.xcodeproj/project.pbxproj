@@ -16,6 +16,8 @@
 		7F836D8B219B49EA00850A20 /* MainScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D89219B49EA00850A20 /* MainScreenViewController.storyboard */; };
 		7F836D8D219B49EB00850A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D8C219B49EB00850A20 /* Assets.xcassets */; };
 		7F836D90219B49EB00850A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F836D8E219B49EB00850A20 /* LaunchScreen.storyboard */; };
+		7F956F1E21E3B90300DCFD1D /* FinanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F956F1D21E3B90300DCFD1D /* FinanceVC.swift */; };
+		7F956F2021E3B90F00DCFD1D /* FinanceVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F956F1F21E3B90F00DCFD1D /* FinanceVC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		7F836D8C219B49EB00850A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F836D8F219B49EB00850A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F836D91219B49EB00850A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F956F1D21E3B90300DCFD1D /* FinanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceVC.swift; sourceTree = "<group>"; };
+		7F956F1F21E3B90F00DCFD1D /* FinanceVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FinanceVC.storyboard; sourceTree = "<group>"; };
 		802A1D25CCAE024A5F952474 /* Pods_FantasyFootballChain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FantasyFootballChain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E721CB16ACB4F8B851985433 /* Pods-FantasyFootballChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC5F39C6E4449662523892B /* Pods-FantasyFootballChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantasyFootballChain.release.xcconfig"; path = "Target Support Files/Pods-FantasyFootballChain/Pods-FantasyFootballChain.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				7F836D97219B4A4100850A20 /* SupportingFiles */,
 				7F836D98219B4AA400850A20 /* MainScreen */,
 				7F2338ED21C820FE0084B781 /* MenuVC */,
+				7F956F2121E3BA1700DCFD1D /* FinanceVC */,
 				7F836D8C219B49EB00850A20 /* Assets.xcassets */,
 			);
 			path = FantasyFootballChain;
@@ -123,6 +128,15 @@
 				7F836D89219B49EA00850A20 /* MainScreenViewController.storyboard */,
 			);
 			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		7F956F2121E3BA1700DCFD1D /* FinanceVC */ = {
+			isa = PBXGroup;
+			children = (
+				7F956F1D21E3B90300DCFD1D /* FinanceVC.swift */,
+				7F956F1F21E3B90F00DCFD1D /* FinanceVC.storyboard */,
+			);
+			path = FinanceVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +201,7 @@
 			files = (
 				7F836D90219B49EB00850A20 /* LaunchScreen.storyboard in Resources */,
 				7F836D8D219B49EB00850A20 /* Assets.xcassets in Resources */,
+				7F956F2021E3B90F00DCFD1D /* FinanceVC.storyboard in Resources */,
 				7F2338EC21C81DF60084B781 /* MenuVC.storyboard in Resources */,
 				7F836D8B219B49EA00850A20 /* MainScreenViewController.storyboard in Resources */,
 			);
@@ -274,6 +289,7 @@
 				7F2338EA21C81DAF0084B781 /* MenuVC.swift in Sources */,
 				7F836D88219B49EA00850A20 /* MainScreenViewController.swift in Sources */,
 				7F836D86219B49EA00850A20 /* AppDelegate.swift in Sources */,
+				7F956F1E21E3B90300DCFD1D /* FinanceVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

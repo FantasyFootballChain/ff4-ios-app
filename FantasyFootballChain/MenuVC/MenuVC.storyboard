@@ -31,6 +31,14 @@
                                 <color key="textColor" red="0.0083693657070398331" green="0.467204749584198" blue="0.99121731519699097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PvR-je-b8m">
+                                <rect key="frame" x="13" y="90" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Finance"/>
+                                <connections>
+                                    <action selector="financeButton:" destination="lcU-sD-R3x" eventType="touchUpInside" id="fZJ-ra-pf3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>

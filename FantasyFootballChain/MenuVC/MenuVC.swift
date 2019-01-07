@@ -19,5 +19,11 @@ class MenuVC: UIViewController {
     super.viewDidLoad()
     print("loading Menu")
   }
+  
+  @IBAction func financeButton(_ sender: UIButton) {
+    guard let financeVC = FinanceVC.storyboardInstance() else { return }
+    self.navigationController?.pushViewController(financeVC, animated: true)
+  }
+  
 
 }
